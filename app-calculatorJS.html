@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple CalculatorJS</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/app.js"></script>
+</head>
+<body>
+    <div class="calculator-wrapper">
+        <form action="#" class="calculator-field">
+            <div class="calculator-field__group">
+                <input type="text" class="calculator-inputA" id="calculator-inputA">
+            </div>
+            <div class="calculator-field__group">
+                <select name="calculator-operator" id="calculator-operator" onChange="setValue()">
+                    <option value="select" > Select </option>
+                    <option value="add" > + </option>
+                    <option value="sub" > - </option>
+                    <option value="mul" > x </option>
+                    <option value="div" > : </option>
+                </select>
+            </div>
+            <div class="calculator-field__group">
+                <input type="text" class="calculator-inputB" id="calculator-inputB">
+            </div>
+            <button type="submit" id="button" onclick="calculate()">Calculate</button>
+        </form>
+        <input type="text" id="result" placeholder="Result" readonly onfocus="this.blur();">
+    </div>
+</body>
+</html>
