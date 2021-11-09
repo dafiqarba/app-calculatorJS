@@ -22,8 +22,8 @@ function calculate() {
     result = parseInt(inputA / inputB);
   }
 
-  var output = document.getElementById("result");
-  output.value = result;
+  //var output = document.getElementById("result");
+  //output.value = result;
 
   alert(result);
   console.log(result);
