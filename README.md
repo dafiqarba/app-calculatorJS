@@ -1,4 +1,4 @@
-# app-calculatorJS
+# js-calculator
 simple calculator using JS script
 
 ## Tugas Prodemy #7 - JS
